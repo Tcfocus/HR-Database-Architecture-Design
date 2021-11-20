@@ -14,3 +14,5 @@ Excel workbook consisting of 200+ records with employee information
  - Evaluate the database and find answers for specific questions using CRUD SQL commands
 
 ![Screenshot](https://github.com/Tcfocus/HR-Database-Architecture-Design/blob/master/images/ConceptualERD.png)
+![Screenshot](https://github.com/Tcfocus/HR-Database-Architecture-Design/blob/master/images/LogicalERD.png)
+![Screenshot](https://github.com/Tcfocus/HR-Database-Architecture-Design/blob/master/images/PhysicalERD.png)
