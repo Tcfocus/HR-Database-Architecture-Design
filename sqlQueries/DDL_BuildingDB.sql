@@ -1,4 +1,5 @@
 
+--Create tables
 
 CREATE TABLE Location (Location_ID SERIAL PRIMARY KEY,
                       Location_NM VARCHAR(50),
@@ -34,6 +35,7 @@ CREATE TABLE Employee_History (Emp_ID VARCHAR(10) REFERENCES Employee(Emp_ID),
                       Salary_ID INT REFERENCES Salary(Salary_ID),
                       PRIMARY KEY(Emp_ID, Job_Title_ID));
 
+--Load data into tables from employee excel 
 
 INSERT INTO Location(Location_NM, Address, City, State) 
 SELECT DISTINCT location, address, city, state FROM proj_stg;
